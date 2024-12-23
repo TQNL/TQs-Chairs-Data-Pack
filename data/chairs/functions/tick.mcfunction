@@ -4,4 +4,4 @@ execute as @a[nbt={Rotation:[90.0f]}] at @s if block ~ ~ ~ #minecraft:slabs unle
 
 execute as @e[tag=seat2] at @s if block ~ ~ ~ #air run kill @s
 
-execute as @e[tag=seat2] at @s unless entity @p[distance=..5] unless block ~1 ~ ~ #wall_signs unless block ~-1 ~ ~ #wall_signs unless block ~ ~ ~1 #wall_signs unless block ~ ~ ~-1 #wall_signs run kill @s
+execute as @e[tag=seat2] at @s unless entity @p[distance=..5] unless block ~1 ~ ~ #wall_signs unless block ~-1 ~ ~ #wall_signs unless block ~ ~ ~1 #wall_signs unless block ~ ~ ~-1 #wall_signs unless block ~1 ~ ~ #stairs unless block ~-1 ~ ~ #stairs unless block ~ ~ ~1 #stairs unless block ~ ~ ~-1 #stairs run kill @s
