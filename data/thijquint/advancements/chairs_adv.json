@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:oak_stairs"
+      "item": "minecraft:oak_stairs"
     },
     "title": "TQs Chairs Data Pack",
     "description": "Adds right click chairs from stairs & slabs, look straight down on one",
