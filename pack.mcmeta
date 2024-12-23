@@ -1,6 +1,6 @@
 {
     "pack":{
-        "pack_format": 48,
+        "pack_format": 41,
         "description": "Looking exactly down while on stairs or slabs, makes a right-clickable chair. add a wall sign to make the chair permanent. 1.19.4+ only. By ThijquintNL"
     }
 }
